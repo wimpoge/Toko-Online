@@ -53,10 +53,9 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-  color: #0070f3;
-
+  font-size: 3rem;
+  font-weight: bolder;
+  color: tomato;
 }
 
 .title,
@@ -85,7 +84,6 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-  
 }
 
 .card {
@@ -116,11 +114,6 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
 }
 
 .banner {

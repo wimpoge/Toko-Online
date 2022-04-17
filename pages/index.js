@@ -15,12 +15,13 @@ export default function Home() {
       <Navbar></Navbar>
 
       <div className={styles.banner}>
-        <h1 className={styles.title}>
-            Selamat datang di toko online kami
+        <div className={styles.title}>
+            <p>Selamat datang di toko online kami.</p>
+            <p>Belanja lebih mudah</p>
             <button className={styles.button}>
               Lihat Produk
             </button>
-        </h1>
+        </div>
       </div>
 
       <main className={styles.main}>
