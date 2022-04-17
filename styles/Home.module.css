@@ -12,17 +12,29 @@
   align-items: center;
 }
 
-.footer {
+.navbar {
+  background: #fff;
+  padding: 1rem 2rem;
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.footer a {
+.navbar ul {
   display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer a {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
@@ -43,6 +55,8 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: #0070f3;
+
 }
 
 .title,
@@ -71,6 +85,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  
 }
 
 .card {
@@ -106,6 +121,24 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.banner {
+  background-image: url('/thumb-350-435743.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+
+}
+
+.button {
+  background: #0070f3;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
