@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar></Navbar>
+      
 
       <div className={styles.banner}>
         <div className={styles.title}>
@@ -27,7 +28,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
+            <Image src="/thumb-350-435743.jpg" alt="First slide" width="100px" height="100px" className={styles.image} />
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
@@ -55,7 +56,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <Footer></Footer>
+      
     </div>
   )
 }

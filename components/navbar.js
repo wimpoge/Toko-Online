@@ -3,6 +3,7 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 
+
 const Navbar = () => {
     return (
         <nav>
@@ -10,7 +11,7 @@ const Navbar = () => {
                 <Image src="/googlelogo_color_160x56dp.png" alt="logo" width="320px" height="112px"/>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <Link href="/Baju">
                             <a>Baju</a>
                         </Link>
                     </li>
@@ -37,4 +38,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;
