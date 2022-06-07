@@ -6,21 +6,21 @@ export const getStaticProps = async () => {
     const data = await res.json()
     return {
         props: { 
-            ninjas: data
+            clothes: data
         }
     }
 }
 
-const Baju = ({ ninjas }) => {
+const Baju = ({ clothes }) => {
     return (
         <div className={styles.container}>
             <ul className={styles.grid}>
                 {
-                    ninjas.map(ninja => 
-                    <li key={ninja.id} className={styles.row}>
-                        {ninja.title},
-                        <img src={ninja.image} width="100px" height="100px" ></img>
-                        <p>{ninja.price}</p>
+                    clothes.map(clothe => 
+                    <li key={clothe.id} className={styles.row}>
+                        {clothe.title},
+                        <img src={clothe.image} width="100px" height="100px" ></img>
+                        <p>$ {clothe.price}</p>
                         <button>Add to Cart</button>
                     </li>
                     )

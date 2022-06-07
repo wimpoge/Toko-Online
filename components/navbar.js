@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className={styles.navbar}>
-                <Image src="/googlelogo_color_160x56dp.png" alt="logo" width="320px" height="112px"/>
+                <Image src="/googlelogo_color_160x56dp.png" alt="logo" width="300" height="100"/>
                 <ul>
                     <li>
                         <Link href="/Baju">
